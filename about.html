@@ -1,5 +1,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=35879232"></script>
 <html>
 <title>Make My Dreams</title>
 <link rel="shortcut icon" href="images/logoNew.png" type="image/png">
@@ -9,7 +10,52 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="feedback.css" />
 <style>
-	body {
+
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color:#fff;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
+}
+
+body {
 		  background-image: url(images/mbl.jpg);
 		  background-repeat: no-repeat;
 		  background-size: cover;
@@ -148,6 +194,23 @@ function myFunction() {
 	</div>
 </div>
 </div> 
+
+<div class="sticky-container">
+    <ul class="sticky">
+        <li>
+            <img src="images/facebook.png" width="32" height="32">
+            <p><a href="https://www.facebook.com/theigniters.co.in">Contact me on<br>Facebook</a></p>
+        </li>
+        <li>
+            <img src="images/twitter.png" width="32" height="32">
+            <p><a href="" target="_blank">Follow me on<br>Twitter</a></p>
+        </li>
+		 <li>
+            <img src="images/instagram.png" width="32" height="32">
+            <p><a href="" target="_blank">Follow me on<br>Instagram</a></p>
+        </li>
+    </ul>
+</div>
 
 </body>	
 
